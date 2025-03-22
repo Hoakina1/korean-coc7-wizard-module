@@ -1,15 +1,11 @@
 {
   "name": "korean-coc7-wizard-module",
   "title": "Korean CoC7 Wizard Module",
-  "description": "A FoundryVTT module to add Korean occupations and skills for CoC7 Investigator Creation Wizard.",
+  "description": "한글 CoC7 캐릭터 생성을 위한 Wizard 직업/기술 세트 모듈입니다.",
   "version": "1.0.0",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "11",
-  "author": "Hoakina1",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
+  "author": "Hoakina",
   "packs": [
     {
       "name": "korean-occupations",
