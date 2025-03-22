@@ -1,27 +1,30 @@
 {
   "name": "korean-coc7-wizard-module",
   "title": "Korean CoC7 Wizard Module",
-  "description": "한글 CoC7 캐릭터 생성을 위한 Wizard 직업/기술 세트 모듈입니다.",
+  "description": "Adds Korean-language skills and occupations for the CoC7 Wizard.",
   "version": "1.0.0",
+  "author": "YourName",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "11",
-  "author": "Hoakina",
+  "scripts": [
+    "scripts/wizard-extension.js"
+  ],
   "packs": [
-    {
-      "name": "korean-occupations",
-      "label": "한글 직업 모음",
-      "path": "packs/korean-occupations.db",
-      "type": "Item",
-      "system": "CoC7"
-    },
     {
       "name": "korean-skills",
       "label": "한글 기술 모음",
       "path": "packs/korean-skills.db",
       "type": "Item",
       "system": "CoC7"
+    },
+    {
+      "name": "korean-occupations",
+      "label": "한글 직업 모음",
+      "path": "packs/korean-occupations.db",
+      "type": "Item",
+      "system": "CoC7"
     }
   ],
-  "manifest": "https://hoakina1.github.io/korean-coc7-wizard-module/module.json",
-  "download": "https://github.com/Hoakina1/korean-coc7-wizard-module/archive/refs/heads/main.zip"
+  "manifest": "https://yourusername.github.io/korean-coc7-wizard-module/module.json",
+  "download": "https://github.com/yourusername/korean-coc7-wizard-module/archive/refs/heads/main.zip"
 }
